@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task one js</title>
+  
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <span class="openNav" onclick="openNav()">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+        <marquee behavior="scroll" direction="left">
+            <h2>Hello from the first task js by: Mohammed Ebrahiim</h2>
+        </marquee>
+    </header>
+    
+    <div id="mysideNav" class="sideNav">
+        <span onclick="closeNav()" class="closeNav">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+        <a href="#">Home</a >
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Reach Us</a>
+    </div>
+
+    <div class="main-div" id="main">
+        <h1>Task 1 JS</h1>
+        <ol>
+            <li>
+                Create a function to calculate Average to a group of numbers (at least 10 numbers) <br>
+                <span>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</span> <br>
+                <mark id="answer1" style=" margin-top: 10px;"></mark>
+            </li>
+            <li>
+                Create a function to hide and show a section of code by clicking a button  <br>
+                
+            </li>
+            <li>
+                Create the two functions from the lecture:
+                <ol type="a">
+                    <li>
+                        - open nav and close nav
+                    </li>
+                    <li>
+                        - clock
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    <div class="clock" id="myclock"  onload="clock()"></div>
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
